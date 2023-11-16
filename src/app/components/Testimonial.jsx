@@ -1,8 +1,13 @@
-import React from 'react'
+'use client';
+import TestimonialSlider from './TestimonialSlider'
 
 const Testimonial = () => {
   return (
-    <div>Testimonial</div>
+    <section className='section flex items-center' id='testimonial'>
+      <div className='container mx-auto'>
+        <TestimonialSlider/>
+      </div>
+    </section>
   )
 }
 
